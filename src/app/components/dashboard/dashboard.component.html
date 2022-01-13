@@ -1,0 +1,9 @@
+<div class="dashboard">
+  <div class="dashboard-service-cards">
+      <ng-container *ngFor="let card of cardDetails">
+        <app-service-card [cardConfig]="card" ></app-service-card>
+      </ng-container>
+
+  </div>
+</div>
+
